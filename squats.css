@@ -1,0 +1,24 @@
+#container-countdown {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#countdown {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background: linear-gradient(to right, #59AC77, #003161);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    width: 100%;
+    
+}
